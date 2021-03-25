@@ -3,11 +3,6 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,intial-scale=1">
-        <title>WebAR</title>
-    </head>
     <body style="margin:0px; overflow:hidden;">
         <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
         <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
